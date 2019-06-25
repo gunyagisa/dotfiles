@@ -7,6 +7,9 @@ set number
 set tabstop=4
 set shiftwidth=4
 
+set nocompatible
+set wildmenu
+
 "Dein
 if &compatible
   set nocompatible
