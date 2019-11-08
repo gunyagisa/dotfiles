@@ -11,7 +11,7 @@ PROMPT="%{$fg_bold[green]%}%n@%m%{${reset_color}%} %~
 autoload -Uz compinit
 compinit
 
-zstyle ':completion:*' match-list 'm:{a-z}={A-Z}'
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 setopt no_beep
 setopt auto_cd
