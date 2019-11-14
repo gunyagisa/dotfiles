@@ -17,3 +17,7 @@ depends = ['deoplete.nvim']
 
 [[plugins]]
 repo = 'joshdick/onedark.vim'
+
+
+[[plugins]]
+repo = 'junegunn/fzf.vim'

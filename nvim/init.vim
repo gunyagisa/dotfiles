@@ -10,8 +10,6 @@ set ignorecase
 set smartcase
 set wrapscan
 
-set termguicolors
-
 
 " Dein
 if &compatible
