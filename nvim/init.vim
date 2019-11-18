@@ -37,7 +37,7 @@ if dein#load_state('~/.cache/dein')
     call dein#save_state()
 endif
 
-colorscheme onedark
+colorscheme nord
 
 filetype plugin indent on
 syntax enable
