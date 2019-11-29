@@ -37,8 +37,6 @@ if dein#load_state('~/.cache/dein')
     call dein#save_state()
 endif
 
-colorscheme nord
-
 filetype plugin indent on
 syntax enable
 if dein#check_install()
@@ -51,4 +49,4 @@ if !has('nvim')
     call dein#add('roxma/vim-hug-neovim-rpc')
 endif
 
-let g:deoplete#enable_at_startup = 1
+colorscheme nord
