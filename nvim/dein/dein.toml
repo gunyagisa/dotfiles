@@ -2,8 +2,6 @@
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
-repo = 'arcticicestudio/nord-vim'
+repo = 'morhetz/gruvbox'
 
-[[plugins]]
-repo = 'Shougo/neosnippet-snippets'
 

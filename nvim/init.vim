@@ -1,5 +1,4 @@
 set number
-filetype plugin indent on
 
 set smartindent
 set expandtab
@@ -36,7 +35,6 @@ if dein#load_state('~/.cache/dein')
     call dein#save_state()
 endif
 
-syntax enable
 if dein#check_install()
     call dein#install()
 endif
@@ -47,7 +45,12 @@ if !has('nvim')
     call dein#add('roxma/vim-hug-neovim-rpc')
 endif
 
-colorscheme nord
+let g:gruvbox_italic=1
+colorscheme gruvbox
+
+filetype plugin indent on
+syntax enable
+
 let mapleader = "\<space>"
 nmap <Leader>w [window]
 nnoremap [window]h <C-w>h
