@@ -1,7 +1,15 @@
 [[plugins]]
 repo = 'Shougo/dein.vim'
+hook_add = '''
+    let g:dein#auto_recache = 1
+'''
 
 [[plugins]]
 repo = 'morhetz/gruvbox'
 
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+hook_add = '''
+    let g:airline_powerline_fonts = 1
+'''
 
