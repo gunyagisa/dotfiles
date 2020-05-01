@@ -47,9 +47,14 @@ endif
 
 let g:gruvbox_italic=1
 colorscheme gruvbox
-
 filetype plugin indent on
 syntax enable
+
+highlight Normal ctermbg=NONE guibg=NONE
+highlight NonText ctermbg=NONE guibg=NONE
+highlight SpecialKey ctermbg=NONE guibg=NONE
+highlight EndOfBuffer ctermbg=NONE guibg=NONE
+
 
 let mapleader = "\<space>"
 nmap <Leader>w [window]
