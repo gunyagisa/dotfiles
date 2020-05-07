@@ -77,4 +77,3 @@ hook_post_update = '''
     call system('bash install.sh')
     endif
 '''
-

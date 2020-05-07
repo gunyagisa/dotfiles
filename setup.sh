@@ -1,7 +1,6 @@
 #!/bin/bash
 mkdir -p ~/.config/nvim/dein
 
-ln -sf ~/dotfiles/zsh/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
 
 ln -sf ~/dotfiles/nvim/dein/dein.toml ~/.config/nvim/dein/dein.toml
