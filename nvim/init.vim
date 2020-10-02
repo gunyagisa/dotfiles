@@ -1,8 +1,8 @@
 set number
 
 set smartindent
-set expandtab
 set shiftwidth=2
+set expandtab
 set termguicolors
 
 set ignorecase
